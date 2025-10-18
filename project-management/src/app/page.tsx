@@ -1,3 +1,5 @@
+import { Button } from "@/components/ui/button";
+
 export default function Home() {
   return (
     <div className="min-h-screen bg-gray-100 p-10">
@@ -6,9 +8,7 @@ export default function Home() {
         <h1 className="text-5xl font-extrabold text-blue-700 mb-4 md:mb-0">
           Tailwind Test Dashboard
         </h1>
-        <button className="bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-6 rounded-lg transition-colors">
-          Click Me
-        </button>
+        <Button variant = "default" size= "lg" >click me</Button>
       </header>
 
       {/* Cards */}
